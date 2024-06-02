@@ -1,0 +1,77 @@
+.banner {
+    display: flex;  /*Since we should learn flexbox stuff*/
+    align-items: center;    /*Is what simplifies the space between each banner item*/
+    justify-content: space-between; /*polarizes the space between name and nav bar*/
+    background-color: #670abe;
+    padding: 20px;
+    color: white;
+}
+
+/* This accounts for the hyperlink colors under purple banner */
+a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+nav a:hover {
+    font-family: 'Helvetica', sans-serif; /* Change font on hover */
+}
+
+
+h1{
+    color:#670abe;
+}
+
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+
+#projects{
+    padding-left: 5%;
+}
+
+
+fieldset {
+    width: 33%; /* Set fieldset width to 100% */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    margin-bottom: 10px; /* Add some space between fieldsets */
+    border: 2px solid #670abe; /* Optional: set border style */
+    padding: 10px; /* Add padding inside the fieldset for better appearance */
+    border-radius: 5px; /* Optional: add rounded corners */
+}
+
+
+input[type="text"] {
+    width: 100%; /* Set input width to 100% of its parent */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    padding: 10px; /* Add padding inside the input for better appearance */
+    border: 2px solid #670abe; /* Optional: set border style */
+    border-radius: 5px; /* Optional: add rounded corners */
+}
+
+button{
+    border: 2px solid #670abe;
+    border-radius: 5px;
+    width: 85px;
+    text-align: center;
+    background-color: #ffffff;
+    color: #670abe;
+}
+
+#homeButton {
+    position: fixed;
+    bottom: 20px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+    background-color: #670abe;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#homeButton:hover {
+    background-color: #4b077d;
+}

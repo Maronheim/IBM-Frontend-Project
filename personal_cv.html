@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="scripting.js"></script>
+        <link rel="stylesheet" href="styling.css">
+        <title>Max Aronheim Website CV</title>
+    </head>
+
+    <body>
+        <div class="banner">
+            <h1 style="color: white">Max Aronheim</h1>
+            <nav>
+                <a href="#about">About Me</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#recommendations">Recommendations</a>
+            </nav>
+        </div>
+
+        <div class="about">
+            <img src="Website CV Project/personal_cv.html" alt="Max's Profile Pic" id="profile_pic">
+            <h1>
+                Hi, I'm Max Aronheim!
+            </h1>
+            <p>
+                I'm learning to becoming a full stack engineer. With my experience in C++ and VBA, I've been preparing myself for success,
+                and after finishing this certificate, I'll acrue several new skills including HTML, CSS, and JavaScript
+                Outside of my coding experience, I'm also pursuing a finance and information management degree with the hopes of becoming a technology consultant.
+                In my freetime, I like to draw! Come learn more about me!
+            </p>
+        </div>
+
+        <div id="skills">
+            <h1>Skills</h1>
+            <fieldset id="c++">
+                <img src="personal cv/c++.png" alt="c++ logo">
+                <h4>c++</h4>
+                <h3>2 years of experience</h3>
+            </fieldset>
+
+            <fieldset id="vba">
+                <img src="personal cv/vba.png" alt="VBA logo">
+                <h4>VBA</h4>
+                <h3>1.5 years of experience</h3>
+            </fieldset>
+
+            <fieldset id="2d_digital">
+                <img src="personal cv/personal_cv.html" alt="procreate logo">
+                <h4>2D Digital Art</h4>
+                <h3>1.5 years of experience</h3>
+            </fieldset>
+        </div>
+
+        <h1>Projects</h1>
+        <div id="projects">
+            <h2>Botanical Blitz</h2>
+            <ul>
+                <li>Created a web-based game typing game with a poem API and an animated gif flower the grew as you typed </li>
+            </ul>
+            <hr>
+            <h2>Culture's Ingenium</h2>
+            <ul>
+                <li>Spent 180 hours creating an 8 piece art portfolio denoting variations of culture through ethnicity</li>
+            </ul>
+            <hr>
+            <h2>Financial Reporting Macros</h2>
+            <ul>
+                <li>Utlized VBA to expand the financial reporting automation capabilities of an excel file</li>
+            </ul>
+            <hr>
+        </div>
+
+        <h1>Recommendations</h1>
+        <div class="recomendations">
+
+            <fieldset>
+                "Max Aronheim is a fantastic learner. Within 2 days, he mastered several challenging topics within our industry. He's demonstrated what it's like to have coworkers who are competent and talented."
+            </fieldset> <br>
+
+            <fieldset>
+                "Working with Max has been so enjoyable. He's a fantastic communicator and this is reflexted within the ease of our projects together. Truly an adaptable person to work with."
+            </fieldset> <br>
+
+            <fieldset>
+                "If I were to pick a dependable person to rely on, it'd be Max Aronheim. He is always early to work and fully commited to the team. Truly, he's made an impact on the culture that we have at our organization"
+            </fieldset> <br> <br>
+
+            <h2>Leave a Recommendation</h2>
+        <form id="recommendationForm">
+            <fieldset>
+                <input type="text" id="name" placeholder="Name (Optional)">
+            </fieldset>
+
+            <fieldset>
+             <input type="text" id="message" placeholder="Message">
+            </fieldset>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        </div>
+
+        <button id="homeButton" onclick="scrollToTop()">Home</button>
+
+    </body>
+</html>
